@@ -1,0 +1,8 @@
+{
+  "target": "CO2_Uptake_mmolg",
+  "model": "RandomForest + GNN embeddings",
+  "r2": 0.9970549030157049,
+  "rmse": 0.2928591366167701,
+  "mae": 0.14843579755684436,
+  "n_features": 99
+}
