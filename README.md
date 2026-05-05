@@ -1,6 +1,6 @@
-# ChemOps: Machine Learning & GNN Pipeline for COF Property Prediction
+# Machine Learning & GNN Pipeline for COF Property Prediction
 
-ChemOps is an end‑to‑end machine learning pipeline for Covalent Organic Framework (COF) property prediction.  
+This is an end‑to‑end machine learning pipeline for Covalent Organic Framework (COF) property prediction.  
 It combines descriptor‑based tree models (RandomForest, XGBoost, CatBoost) with graph neural networks (GNNs) built from linker SMILES, and supports both tabular and multi‑modal modeling.
 
 The current version runs on a synthetic COF‑like dataset to validate the full stack (data → features → models → metrics) and to prepare for integration with real experimental COF data.
@@ -16,7 +16,7 @@ Most existing COF work uses either:
 - **Descriptor‑based models** (surface area, pore volume, composition, etc.), or  
 - **Structure‑based models** (e.g., GNNs on molecular graphs).
 
-ChemOps is designed to:
+This project is designed to:
 
 1. Provide a **clean, reproducible ML pipeline** that a chemistry group can reuse.  
 2. Benchmark **tree ensembles** vs **GNNs** vs **multi‑modal models** for COF property prediction.  
@@ -27,7 +27,7 @@ ChemOps is designed to:
 ## 2. Repository Structure
 
 ```text
-ChemOps/
+Chemistry_COF_ML_Framework/
   configs/
     base_config.py        # Global configuration (paths, training, model params)
     __init__.py
@@ -191,7 +191,7 @@ pip install xgboost catboost
 
 ## 6. Running the Pipeline
 
-All commands are run from the project root (`ChemOps/`) with the `chemenv` environment activated.
+All commands are run from the project root (`Chemistry_COF_ML_Framework/`) with the `chemenv` environment activated.
 
 ### 6.1 Initialize configuration and directories
 
@@ -321,7 +321,7 @@ Planned extensions once real COF data are available:
 
 ---
 
-## 10. Contact / Collaboration
+## 10. Contact Info
 
-This repository is designed to be a starting point for collaborations between **chemistry / materials groups** and **machine learning practitioners**.  
-If you have a COF dataset (structures + properties) and are interested in applying or extending this framework, the codebase is structured to make integration and experimentation straightforward.
+Mail: andra.varunsai@gmail.com
+Time: IST
